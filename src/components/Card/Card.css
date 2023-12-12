@@ -1,0 +1,30 @@
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    transition: all 0.3s linear;
+    cursor: pointer;
+    background-color: #A9B388;
+    color: #FEFAE0;
+}
+
+.detail{
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: #858d6c;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+}
+.row{
+    padding: 30px 0;
+    min-height: 100vh;
+}
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

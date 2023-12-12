@@ -1,0 +1,47 @@
+.edit{
+    background-color: #B99470;
+    color: #FEFAE0;
+    border: none;
+    transition: all 0.3s linear;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.edit:hover{
+    background-color: #9e7f60;
+    color: #FEFAE0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.delete{
+    background-color: #A9B388;
+    transition: all 0.3s linear;
+    border: none;
+    color: #FEFAE0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.delete:hover{
+    background-color: #858d6c;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.goDetail{
+    background-color: #5F6F52;
+    color: #FEFAE0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+
+.goDetail:hover{
+    background-color: #4f5b45;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.table{
+    min-height: 100vh;
+}
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

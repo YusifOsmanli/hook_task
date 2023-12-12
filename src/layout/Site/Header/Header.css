@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+    background-color: #5F6F52;
+    color: #FEFAE0;
+}
+
+.input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.site{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    color: #FEFAE0;
+}
+
+.site::after{
+    content: "";
+    position: absolute;
+    background-color: #FEFAE0;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 1px;
+    transition: 0.3s ease;
+}
+
+.site:hover::after{
+    width: 100%;
+}

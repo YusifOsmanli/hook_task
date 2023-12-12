@@ -1,0 +1,14 @@
+.active{
+    background-color: rgb(6, 135, 215);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .passive{
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }

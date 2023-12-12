@@ -1,0 +1,22 @@
+.formInp{
+    width: 400px;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addBtn{
+    width: 130px;
+}
